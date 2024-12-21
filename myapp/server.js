@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 const {CreateUserModel} = require("./model/user");
 const { CreatePostModel } = require('./model/post');
 
-const sequelize = new Sequelize('postgres://postgres:0809@host.docker.internal:5432/postgres')
+const sequelize = new Sequelize('postgres://postgres:0809@postgres:5432/postgres')
 
 
 let UserModel = null

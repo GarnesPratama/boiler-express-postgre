@@ -1,4 +1,6 @@
-FROM node:22-alpine 
+# FROM node:22-alpine 
+FROM node:22
+# RUN apk update && apk add bind-tools
 
 WORKDIR /App
 
